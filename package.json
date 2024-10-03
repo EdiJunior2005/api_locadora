@@ -1,0 +1,29 @@
+{
+  "name": "locadora",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "api de locadora",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex30pro/Locadora.git"
+  },
+  "author": "Alex, Edi, Luiz, Felipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex30pro/Locadora/issues"
+  },
+  "homepage": "https://github.com/Alex30pro/Locadora#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0"
+  }
+}
